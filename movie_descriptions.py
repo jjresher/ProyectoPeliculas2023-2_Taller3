@@ -15,7 +15,6 @@ with open('movie_titles.json', 'r') as file:
 
 print(movies[0])
 
-
 #Se genera una función auxiliar que ayudará a la comunicación con la api de openai
 #Esta función recibe el prompt y el modelo a utilizar (por defecto gpt-3.5-turbo)
 #devuelve la consulta hecha a la api
